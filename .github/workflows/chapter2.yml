@@ -15,8 +15,6 @@ jobs:
         with:
           node-version: 16
       - name: "install dependencies"
-        working-directory: ./chapter7/my-app
         run: npm ci
       - name: "build"
-        working-directory: ./chapter7/my-app
         run: npm run build
